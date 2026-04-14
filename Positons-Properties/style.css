@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+div{
+    border: 1px solid black;
+}
+img{
+    margin: 10px;
+    width: 300px;
+    height: 320px;
+}
+/* relative position is applied to the element */
+.img1{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
