@@ -2,6 +2,10 @@
     margin: 10px;
     padding: 0;
 }
+.container{
+    height: 600px;
+    border: 1px solid rgb(255, 132, 0);
+}
 img{
     width: 300px;
     height: 320px;
@@ -13,4 +17,6 @@ p{
 }
 #me{
     float: right;
+    position: relative;
+    bottom: 10px;
 }
