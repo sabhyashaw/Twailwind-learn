@@ -6,17 +6,18 @@
     height: 600px;
     border: 1px solid rgb(255, 132, 0);
 }
-img{
-    width: 300px;
-    height: 320px;
-}
 p{
-    border: 1px solid black;
     width: 75%;
     padding: 5px;
 }
 #me{
+    width: 300px;
+    height: 320px;
     float: right;
-    position: relative;
-    bottom: 10px;
+}
+#s{
+    width: 16rem;
+    height: 9rem;
+    clear: right;
+    float: right;
 }
