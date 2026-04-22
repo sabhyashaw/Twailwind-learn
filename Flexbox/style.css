@@ -1,0 +1,31 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 4px;
+    padding: 3px;
+}
+#b1{
+    background-color: bisque;
+}
+#b2{
+    background-color: blueviolet;
+}
+#b3{
+    background-color: blue;
+}
+#b4{
+    background-color: aqua;
+}
