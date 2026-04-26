@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+.navContainer{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(228, 174, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navList{
+    width: 100%;
+    list-style-type: none;
+    font-size: 2.8rem;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.navItems{
+    display: flex;
+    gap: 40px;
+}
+#web-logo{
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+}
+
