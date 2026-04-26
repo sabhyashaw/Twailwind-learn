@@ -6,6 +6,10 @@
 a{
     text-decoration: none;
 }
+img{
+    height: 300px;
+    width: 350px;
+}
 .container{
     width: 100vw;
     height: 100vh;
@@ -18,9 +22,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #navList{
-    width: 100%;
+    width: 100vw;
     list-style-type: none;
     font-size: 2.8rem;
     padding: 15px;
@@ -31,8 +36,18 @@ a{
     display: flex;
     gap: 40px;
 }
-#web-logo{
+#webLogo{
     font-size: 2.8rem;
     color: rgb(255, 255, 255);
 }
-
+.resItems{
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+}
+.info{
+    width: 500px;
+    height: 400px;
+}
