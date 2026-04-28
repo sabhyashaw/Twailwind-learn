@@ -16,11 +16,12 @@ a{
     padding: 0px 10px;
 }
 img{
-    height: 15rem;
-    width: 20rem;
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #f9f871;
-    transition: all 200ms;
+    box-shadow: 10px 10px 5px #535353;
+    transition: all 300ms ease-out;
 }
 .container{
     width: 100vw;
@@ -52,42 +53,48 @@ img{
     font-size: 2.8rem;
     color: rgb(255, 255, 255);
 }
+.resItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .items{
-    width: 1300px;
+    width: 900px;
+    height: 2000px;
     background-color: #ffabbc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 100px 0px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px;
 }
 .info{
-    width: 800px;
+    width: 400px;
     height: 300px;
     overflow: scroll;
 }
 .res1{
-    width: 1200px;
-    display: flex;
+    width: 800px;
     margin: 100px;
+    display: flex;
     justify-content: space-between;
 }
 .res2{
-    width: 1200px;
+    width: 800px;
     display: flex;
     margin: 100px;
     justify-content: space-between;
 }
 .res3{
-    width: 1200px;
+    width: 800px;
     display: flex;
     margin: 100px;
     justify-content: space-between;
 }
 .res4{
-    width: 1200px;
+    width: 800px;
     display: flex;
     margin: 100px;
     justify-content: space-between;
