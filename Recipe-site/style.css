@@ -12,15 +12,21 @@ a{
     text-wrap: wrap;
 }
 .resHeading{
-    color: #ffffff;
-    background: 
-      linear-gradient(currentColor 0 0) 
-      0% 100% /var(--d, 0) 3px 
-    no-repeat;
-  transition:0.5s;
+    color: white;
+    position: relative;
 }
-.resHeading:hover {
-    --d: 50%;
+.resHeading::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, red, purple);
+    transition: all 0.4s ease-out;
+}
+.resHeading:hover::before{
+    width: 70%;
 }
 img{
     height: 200px;
