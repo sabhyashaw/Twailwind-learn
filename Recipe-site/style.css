@@ -7,16 +7,19 @@ a{
     text-decoration: none;
 }
 .resPara{
+    color: rgb(249, 4, 102);
     padding: 18px;
     text-wrap: wrap;
 }
 .resHeading{
-    color: #ffbe92;
+    color: #ffffff;
     padding: 0px 10px;
 }
 img{
     height: 15rem;
     width: 20rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #f9f871;
     transition: all 200ms;
 }
 .container{
@@ -50,13 +53,15 @@ img{
     color: rgb(255, 255, 255);
 }
 .items{
-    width: 1340px;
+    width: 1300px;
+    background-color: #ffabbc;
     display: flex;
     flex-direction: column;
-    margin: 100px;
-    border: 2px solid rgb(255, 0, 238);
     justify-content: center;
     align-items: center;
+    margin: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
 }
 .info{
     width: 800px;
@@ -88,5 +93,5 @@ img{
     justify-content: space-between;
 }
 img:hover{
-    scale: 1.25;
+    scale: 1.15;
 }
