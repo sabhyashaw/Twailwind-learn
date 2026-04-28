@@ -46,8 +46,38 @@ img{
 }
 .items{
     display: flex;
+    flex-direction: column;
+    margin: 100px;
+    gap: 100px;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
 }
 .info{
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+}
+.res1{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.res2{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.res3{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.res4{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
 }
