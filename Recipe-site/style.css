@@ -17,6 +17,7 @@ a{
 img{
     height: 15rem;
     width: 20rem;
+    transition: all 200ms;
 }
 .container{
     width: 100vw;
@@ -49,7 +50,7 @@ img{
     color: rgb(255, 255, 255);
 }
 .items{
-    width: 1300px;
+    width: 1340px;
     display: flex;
     flex-direction: column;
     margin: 100px;
@@ -58,7 +59,7 @@ img{
     align-items: center;
 }
 .info{
-    width: 550px;
+    width: 800px;
     height: 300px;
     overflow: scroll;
 }
@@ -85,4 +86,7 @@ img{
     display: flex;
     margin: 100px;
     justify-content: space-between;
+}
+img:hover{
+    scale: 1.25;
 }
