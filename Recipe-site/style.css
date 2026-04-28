@@ -13,7 +13,14 @@ a{
 }
 .resHeading{
     color: #ffffff;
-    padding: 0px 10px;
+    background: 
+      linear-gradient(currentColor 0 0) 
+      0% 100% /var(--d, 0) 3px 
+    no-repeat;
+  transition:0.5s;
+}
+.resHeading:hover {
+    --d: 50%;
 }
 img{
     height: 200px;
@@ -101,4 +108,15 @@ img{
 }
 img:hover{
     scale: 1.15;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e4aeff;
+    /* position:fixed;
+    bottom: 0px; */
+}
+#footer{
+    font-size: 2rem;
 }
