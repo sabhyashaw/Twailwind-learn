@@ -1,21 +1,138 @@
 *{
-    margin: 20px;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    width: max-content;
-    position: relative;
-}
-h1::after{
-    content: "";
-    height: 4px;
+body{
+    height: 100%;
     width: 100%;
-    background: linear-gradient(to right, purple,rgb(160, 160, 255));
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transition: width 0.3s ease-out;
+    background-color: #ffffff;
 }
-h1:hover::after{
-    width: 0%;
+.container{
+    max-width: 90vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header-container{
+    margin-bottom: 2.8rem;
+}
+.header-title{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.header-desc{
+    max-width: 800px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.main-container
+{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-container
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(111, 109, 109);
+    border-radius: 2px;
+}
+.card-image-container{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;   
+}
+.card-image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.card-title-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.card-container:hover .card-image{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: black;
+}
+.card-title-anchor:hover .card-title{
+    color: #bb16fd;
+}
+.card-desc{
+    color: rgb(85, 85, 85);
+    font-size: 1rem;
+}
+.card-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 1.5rem;
+    gap: 1rem;  
+    border-top: 1px solid rgb(220, 220, 220); 
+}
+
+.aurthor-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;  
+}
+
+.aurthor-avatar-container {
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(235, 232, 232);
+    flex-shrink: 0;  
+}
+
+.aurthor-info-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+}
+
+.card-tag-container {
+    border: 1px solid rgb(88, 84, 84);
+    border-radius: 4px;  
+    padding: 0.4rem 0.8rem;  
+    font-size: 0.85rem;  
+    line-height: 1.2rem;
+    color: rgb(120, 120, 120);
+    white-space: nowrap;  
+    flex-shrink: 0;  
+}
+
+.aurthor-name{
+    color: blue;
+}
+.aurthor-date{
+    color: gray;
+}
+@media (max-width : 480px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
