@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     margin:20px;
 }
 .box{
@@ -13,5 +15,13 @@ body{
     border: 1px solid black;
 }
 .container{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
     display: grid;
+    padding: 4rem;
+}
+.items{
+    background-color: rgb(79, 79, 241);
+    border: 1px solid black;
 }
